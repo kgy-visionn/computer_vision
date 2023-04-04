@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "kgy"
+version = "0.1.0"
+description = ""
+authors = ["kimk-ki <110472164+kimk-ki@users.noreply.github.com>"]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pillow = "^9.5.0"
+pytest = "^7.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+black = "^23.3.0"
+pytest = "^7.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
